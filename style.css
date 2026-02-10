@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+}
+body{
+    background-color: rgba(122, 88, 71, 0.712);
+}
+header
+{
+    text-align: center;
+    background-color:rgba(3, 84, 104, 0.918) ;
+    line-height: 1.8;
+    color: rgba(225, 228, 231, 0.925);
+    padding:15px;
+
+}
+a{
+    color: rgba(225, 228, 231, 0.925);
+    padding-left: 30px;
+    text-decoration: none;
+    
+}
+img{
+    width: 15%;
+    box-shadow: -2px -1px 9px 4px rgba(0,0,0,0.5);
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+    object-fit: cover;
+    background-color: aliceblue;
+}
+.main{
+    margin-left: 40px;
+    line-height: 1.6;
+}
+.articals{
+    margin-left: 40px;
+    line-height: 1.6;
+}
+.projects{
+    display: flex;
+}
+.projectcard{
+    width: 100%;
+    padding: 15px;
+    margin: 30px;
+    transform: scale(1.02);
+    cursor: pointer;
+    background-color: rgba(173, 171, 168, 0.418);
+    
+}
+.section{
+    text-align:center;
+    box-shadow: -2px -1px 9px 8px rgba(0,0,0,0.64);
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(255, 235, 205, 0.233);
+    line-height: 1.5;
+}
+form{
+    padding:15px;
+    line-height: 1.6;
+    
+}
+input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 5px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #bec5bedc;
+            color: rgb(12, 12, 12);
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ce0d0d;
+        }
+.footer{
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
