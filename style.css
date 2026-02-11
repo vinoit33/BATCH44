@@ -1,95 +1,62 @@
-*
-{
-    margin: 0;
-}
-body{
-    background-color: rgba(122, 88, 71, 0.712);
-}
-header
-{
-    text-align: center;
-    background-color:rgba(3, 84, 104, 0.918) ;
-    line-height: 1.8;
-    color: rgba(225, 228, 231, 0.925);
-    padding:15px;
-
-}
-a{
-    color: rgba(225, 228, 231, 0.925);
-    padding-left: 30px;
-    text-decoration: none;
-    
-}
-img{
-    width: 15%;
-    box-shadow: -2px -1px 9px 4px rgba(0,0,0,0.5);
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-top: 10px;
-    object-fit: cover;
-    background-color: aliceblue;
-}
-.main{
-    margin-left: 40px;
-    line-height: 1.6;
-}
-.articals{
-    margin-left: 40px;
-    line-height: 1.6;
-}
-.projects{
+body {
+    background: #f4f6f8;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.projectcard{
-    width: 100%;
-    padding: 15px;
-    margin: 30px;
-    transform: scale(1.02);
-    cursor: pointer;
-    background-color: rgba(173, 171, 168, 0.418);
-    
-}
-.section{
-    text-align:center;
-    box-shadow: -2px -1px 9px 8px rgba(0,0,0,0.64);
-    margin: 5%;
-    padding: 5%;
-    background-color: rgba(255, 235, 205, 0.233);
-    line-height: 1.5;
-}
-form{
-    padding:15px;
-    line-height: 1.6;
-    
-}
-input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="radio"],
-        input[type="checkbox"] {
-            width: auto;
-            margin-right: 5px;
-        }
 
-        button {
-            width: 100%;
-            background-color: #bec5bedc;
-            color: rgb(12, 12, 12);
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #ce0d0d;
-        }
-.footer{
+.form-container {
+    background: #fff;
+    padding: 25px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
     text-align: center;
-    text-decoration: none;
-    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.gender {
+    margin-top: 5px;
+}
+
+.gender input {
+    width: auto;
+}
+
+.terms {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
 }

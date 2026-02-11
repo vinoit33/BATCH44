@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Register</h2>
+
+    <form>
+        <!-- Full Name -->
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required><br>
+
+        <!-- Email -->
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required></br>
+
+        <!-- Phone -->
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number" pattern="[0-9]{10}" required><br>
+
+        <!-- Password -->
+        <label>Password</label>
+        <input type="password" placeholder="Minimum 6 characters" minlength="6" required><br>
+
+        <!-- Gender -->
+        <label>Gender</label>
+        <div class="gender">
+            <input type="radio" name="gender" required> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <!-- Course -->
+        <label>Course</label>
+        <select required>
+            <option value="">Select Course</option>
+            <option>Full Stack Development</option>
+            <option>Frontend Development</option>
+            <option>Backend Development</option>
+        </select>
+
+        <!-- Terms -->
+        <div class="terms">
+            <input type="checkbox" required>
+            <span>I agree to the terms and conditions</span>
+        </div>
+
+        <!-- Button -->
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
